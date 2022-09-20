@@ -1,0 +1,13 @@
+---
+- name: Assert Clickhouse role
+  hosts: clickhouse
+  roles:
+    - clickhouse
+- name: Assert Vector role
+  hosts: vector
+  roles:
+    - vector-role
+- name: Assert Lighthouse role
+  hosts: lighthouse
+  roles:
+    - lighthouse-role

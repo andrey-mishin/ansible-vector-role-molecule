@@ -1,0 +1,22 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_user: ubuntu
+      ansible_host: 84.201.164.40
+      ansible_connection: ssh
+      ansible_ssh_private_key_file: /home/baloo/.ssh/id_rsa.pub
+vector:
+  hosts:
+    vector-01:
+      ansible_user: centos
+      ansible_host: 84.252.140.18
+      ansible_connection: ssh
+      ansible_ssh_private_key_file: /home/baloo/.ssh/id_rsa.pub
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_user: centos
+      ansible_host: 84.201.179.211
+      ansible_connection: ssh
+      ansible_ssh_private_key_file: /home/baloo/.ssh/id_rsa.pub

@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Andrey Mishin
+  description: installation vector on centos7 for homework
+  company: home
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Centos
+      versions:
+      - 7
+  galaxy_tags: []
+dependencies: []
